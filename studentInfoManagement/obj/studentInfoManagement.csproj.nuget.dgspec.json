@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Himanshu Kumaar\\Desktop\\GeorgianStudyMaterial\\Sem1\\DataProgramming\\GroupPresentation\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj": {}
+    "C:\\Users\\Rupali Chugh\\Desktop\\BDAT - Georgian College\\1004 - Data Programming\\New folder\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Himanshu Kumaar\\Desktop\\GeorgianStudyMaterial\\Sem1\\DataProgramming\\GroupPresentation\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj": {
+    "C:\\Users\\Rupali Chugh\\Desktop\\BDAT - Georgian College\\1004 - Data Programming\\New folder\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Himanshu Kumaar\\Desktop\\GeorgianStudyMaterial\\Sem1\\DataProgramming\\GroupPresentation\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Rupali Chugh\\Desktop\\BDAT - Georgian College\\1004 - Data Programming\\New folder\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj",
         "projectName": "studentInfoManagement",
-        "projectPath": "C:\\Users\\Himanshu Kumaar\\Desktop\\GeorgianStudyMaterial\\Sem1\\DataProgramming\\GroupPresentation\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj",
-        "packagesPath": "C:\\Users\\Himanshu Kumaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Himanshu Kumaar\\Desktop\\GeorgianStudyMaterial\\Sem1\\DataProgramming\\GroupPresentation\\studentInfoManagement\\studentInfoManagement\\obj\\",
+        "projectPath": "C:\\Users\\Rupali Chugh\\Desktop\\BDAT - Georgian College\\1004 - Data Programming\\New folder\\studentInfoManagement\\studentInfoManagement\\studentInfoManagement.csproj",
+        "packagesPath": "C:\\Users\\Rupali Chugh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rupali Chugh\\Desktop\\BDAT - Georgian College\\1004 - Data Programming\\New folder\\studentInfoManagement\\studentInfoManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Himanshu Kumaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rupali Chugh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
